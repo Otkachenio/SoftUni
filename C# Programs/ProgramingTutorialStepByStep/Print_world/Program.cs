@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Print_world
+{
+    class Program
+    {
+        static void Main()
+        {
+            string a = "Hello World";
+            Console.WriteLine(a.Substring(6).ToLower());
+        }
+    }
+}
