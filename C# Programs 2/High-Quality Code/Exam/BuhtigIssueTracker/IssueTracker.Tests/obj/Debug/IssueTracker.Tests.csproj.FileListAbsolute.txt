@@ -1,0 +1,11 @@
+C:\Users\Otkachenio\Desktop\BuhtigIssueTracker\IssueTracker.Tests\obj\Debug\IssueTracker.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Otkachenio\Desktop\BuhtigIssueTracker\IssueTracker.Tests\bin\Debug\IssueTracker.Tests.dll
+C:\Users\Otkachenio\Desktop\BuhtigIssueTracker\IssueTracker.Tests\bin\Debug\IssueTracker.Tests.pdb
+C:\Users\Otkachenio\Desktop\BuhtigIssueTracker\IssueTracker.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Otkachenio\Desktop\BuhtigIssueTracker\IssueTracker.Tests\bin\Debug\PowerCollections.dll
+C:\Users\Otkachenio\Desktop\BuhtigIssueTracker\IssueTracker.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Otkachenio\Desktop\BuhtigIssueTracker\IssueTracker.Tests\bin\Debug\PowerCollections.xml
+C:\Users\Otkachenio\Desktop\BuhtigIssueTracker\IssueTracker.Tests\obj\Debug\IssueTracker.Tests.dll
+C:\Users\Otkachenio\Desktop\BuhtigIssueTracker\IssueTracker.Tests\obj\Debug\IssueTracker.Tests.pdb
+C:\Users\Otkachenio\Desktop\BuhtigIssueTracker\IssueTracker.Tests\bin\Debug\BuhtigIssueTrackerProgram.exe
+C:\Users\Otkachenio\Desktop\BuhtigIssueTracker\IssueTracker.Tests\bin\Debug\BuhtigIssueTrackerProgram.pdb
