@@ -1,0 +1,96 @@
+/***** GENERAL STYLES *****/
+
+#wrapper {
+	background-color: rgba(200, 200, 200, 0.3);
+	font-size: 15px;
+	font-family: Arial, Tahoma, sans-serif;
+	width: 100%;
+}
+
+#news-wrapper {
+	width: 90%;
+	margin-left: 6%;
+}
+
+section {
+	width: 960px;
+	height: 480px;
+	padding: 20px;
+}
+
+/***** HEADER STYLES *****/
+
+h3 {
+	position: relative;
+	font-weight: normal;
+	font-size: 1.6em;
+	top: 40px;
+	left: 8.4%;
+}
+
+h3, h5 {
+	color: #234465;
+}
+
+h5 {
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+
+/****** MAIN STYLES *****/
+
+article {
+	float: left;
+	margin: 10px;
+	background-color: #FFF;
+	box-shadow: 10px;
+	width: 26%;
+	height: 400px;
+	padding: 10px 30px;
+	box-shadow: 0px 2px 5px #BBB;
+}
+
+img {
+	width: 30%;
+	margin-left: 30%;
+}
+
+.date {
+	margin-left: 70%;
+}
+
+hr {
+	color: rgba(200, 200, 200, 0.4);
+	margin-bottom: 20px;
+}
+
+.tag {
+	font-weight: bold;
+}
+
+.tags {
+	color: rgba(170, 170, 170, 0.6);
+}
+
+.author, .text, .tag  {
+	color: rgba(100, 100, 100, 0.9);
+}
+
+#menu-pages {
+	position: relative;
+	left: 70px;
+	bottom: 35px;
+}
+
+#menu-pages > ul > li {
+	display: inline-block;
+	background-color: #00CCFF;
+	padding: 5px 10px;
+	color: #FFF;
+	margin-left: -2px;
+}
+
+#menu-pages > ul li:hover {
+	background-color: #FF9A0A;
+	cursor: pointer;
+}

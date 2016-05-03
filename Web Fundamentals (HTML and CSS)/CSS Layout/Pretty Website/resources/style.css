@@ -1,0 +1,179 @@
+/***** GENERAL STYLES *****/
+
+body {
+	background-color: #000;
+}
+
+#wrapper {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 16px;
+	width: 900px;
+	height: 1100px;
+	background-color: #FFF;
+	margin: 0 auto;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+p, h5 {
+	font-size: 0.8em;
+}
+
+section {
+	border: 1px solid rgba(200, 200, 200, 0.6);
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+/***** HEADER STYLES *****/
+
+#main-header {
+	background-image: url(images/headerBackground.jpg);	
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 270px;
+}
+
+h1 {
+	color: #FFF;
+	font-size: 1.8em;
+	position: relative;
+	left: 500px;
+	top: 200px;
+}
+
+h1, h2, h3, h5 {
+	font-weight: bold;
+}
+
+h2 {
+	text-transform: uppercase;	
+}
+
+h2, h3 {
+	color: #93D52C;
+	font-size: 1.25em;
+	margin-bottom: 20px;
+}
+
+.products-header {
+	margin-bottom: 20px;
+	margin-left: 170px;
+}
+
+
+/***** MENU STYLES *****/
+
+#our-free-products {
+	height: 455px;
+}
+
+#main-menu {
+	background-color: rgba(220, 220, 220, 0.5);
+	height: 55px;
+}
+
+#main-menu > ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	border: 1px solid #FFF;
+	margin-right: -4px; 
+	color: rgba(100, 100, 100, 0.9);
+	text-align: center;
+	padding: 15px 25px;
+}
+
+#main-menu > ul li:hover {
+	background: rgba(120, 120, 120, 0.8);
+	color: #FFF;
+	cursor: pointer;
+}
+
+#main-menu > hr {
+	border: 1px solid #FFF;
+	position: relative;
+	bottom: 10px;
+}
+
+
+/***** MAIN STYLES *****/
+
+#welcome-section, #our-free-products {
+	width: 540px;
+}
+
+main {
+	margin-left: 35px;
+	margin-top: 20px;
+}
+
+.free-products-text {
+	margin-left: 170px;
+}
+
+.free-products {
+	height: 150px;
+}
+
+
+/***** IMAGE STYLES *****/
+
+.free-products-image {
+	float: left;
+}
+
+
+/***** SIDEBAR STYLES *****/
+
+#news-and-messages {
+	position: absolute;
+	width: 200px;
+	height: 800px;
+	left: 835px;
+	top: 345px;
+}
+
+.link {
+	display: block;
+	color: #93D52C;
+	font-size: 0.8em;
+	margin-top: 5px;
+}
+
+.news {
+	margin-bottom: 15px;
+}
+
+.author {
+	font-weight: bold;	
+}
+
+.messages-author, .author {
+	font-size: 0.8em;
+}
+
+
+/***** FOOTER STYLES *****/
+
+footer {
+	background-color: #93D52C;
+	height: 100px;
+	border: 2px solid #93D52C;;
+	border-style: outset;
+}
+
+#copyrights {
+	position: relative;
+	top: 40px;
+	left: 150px;
+	font-size: 0.8em;
+}
+
+.footer-link {
+	color: #000;
+	font-size: 0.9em;
+}

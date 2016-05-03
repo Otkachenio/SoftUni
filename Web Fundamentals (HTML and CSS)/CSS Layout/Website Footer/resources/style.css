@@ -1,0 +1,87 @@
+/***** GENERAL STYLES *****/
+
+#wrapper {
+	position: absolute;
+	background-color: #234465;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	width: 100%;
+	font-weight: bold;
+	height: 300px;
+}
+
+/***** FOOTER STYLES *****/
+
+section {
+	margin: 40px;
+	height: 250px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul > li {
+	margin-top: 8px;
+}
+
+a {	
+	font-size: 1em;
+	color: #FFF;
+	text-decoration: none;
+	padding: auto;
+}
+
+button {
+	display: block;
+	background-color: transparent;
+	border: 2px solid #FF9A0A;
+	height: 40px;
+	width: 180px;
+	margin-bottom: 10px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #FF9A0A;
+	font-weight: bold; 
+}
+
+#footer-buttons, #footer-about, #our-friends, #version-and-copyrights, #facebook-page {
+	display: inline-block;
+	position: relative;
+}
+
+#footer-buttons {
+	width: 180px;
+	top: -85px;
+}
+
+#footer-about {
+	width: 210px;
+}
+
+#our-friends {
+	width: 175px;
+	top: -125px;
+}
+
+#version-and-copyrights {
+	width: 300px;
+	top: -120px;
+}
+
+#facebook-page {
+	width: 300px;
+}
+
+
+/***** HEADER STYLES *****/
+
+h6 {
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #FF9A0A;
+	margin-bottom: 0;
+}

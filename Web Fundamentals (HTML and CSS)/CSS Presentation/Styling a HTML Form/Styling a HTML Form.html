@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Styling a HTML Form</title>
+	<meta name="author" content="Otkachenio">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<form action="Styling a HTML Form.html">
+			<legend>Step 1: Your details</legend>
+			<p>
+				<label>Name</label>
+				<input type="text" placeholder="First and last name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First and last name'" />
+			</p>
+			<p>
+				<label>Email</label>
+				<input type="text" placeholder="example@domain.com" onfocus="this.placeholder = ''" onblur="this.placeholder = 'example@domain.com'" />
+			</p>
+			<p>
+				<label>Phone</label>
+				<input type="text" placeholder="eg. +4575000000000" onfocus="this.placeholder = ''" onblur="this.placeholder = 'eg. +4575000000000'" />
+			</p>
+
+			<legend>Step 2: Delivery address</legend>
+			<p class="text-area">
+				<label class="text-area-label">Address</label>
+				<textarea rows="4" cols="23">Address</textarea>
+			</p>
+			<p>
+				<label>Post code</label>
+				<input type="text" placeholder="eg. 12345" onfocus="this.placeholder = ''" onblur="this.placeholder = 'eg. 12345'" />
+			</p>
+			<p>
+				<label>Country</label>
+				<input type="text" placeholder="Your country" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your country'" />
+			</p>
+
+			<legend>Step 3: Card details</legend>
+			<p class="card-types">
+				<label>Card type</label>				
+				<div id="test">
+	                <input class="radio-input" name="card" type="radio"/>
+	                	<label class="radio-label">
+	                		<img src="resources/visa.png" alt="">
+	                		VISA
+	            		</label>
+
+	                <input class="radio-input" name="card" type="radio"/>
+	                	<label class="radio-label">
+	                		<img src="resources/amex.png" alt="">
+	                		AmEx
+	            		</label>
+
+	                <input class="radio-input" name="card" type="radio"/>
+	                	<label class="radio-label">
+	                		<img src="resources/mastercard.png" alt="">
+	                		Mastercard
+	            		</label>
+        		</div>      	
+			</p>
+			<p>
+				<label>Card number</label>
+				<input type="text" placeholder="eg. 01234567891011" onfocus="this.placeholder = ''" onblur="this.placeholder = 'eg. 01234567891011'" />
+			</p>
+			<p>
+				<label>Security code</label>
+				<input type="text" placeholder="eg. 1234" onfocus="this.placeholder = ''" onblur="this.placeholder = 'eg. 1234'" />
+			</p>
+			<p>
+				<label>Name of card</label>
+				<input type="text" placeholder="exact name as on the card" onfocus="this.placeholder = ''" onblur="this.placeholder = 'exact name as on the card'" />
+			</p>
+			<button type="submit" value="buy-it">BUY IT!</button>
+		</form>
+	</div>
+</body>
+</html>

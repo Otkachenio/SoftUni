@@ -1,0 +1,134 @@
+/***** GENERAL STYLES *****/
+
+#wrapper {
+	position: absolute;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 16px;
+	width: 100%;
+	background-color: #234465;
+	color: #FFF;
+}
+
+select {
+	background-color: transparent;
+	color: #FFF;
+	border: 0 solid transparent;
+	border-radius: 10px;
+	color: #BBB;
+	font-size: 1em;
+}
+
+select:hover {
+	color: #FFF;
+	cursor: pointer;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/***** IMAGE STYLES *****/
+
+#softuni-image {
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 0;
+	position: absolute;
+}
+
+/***** SEARCH STYLES *****/
+
+#search-box {
+    border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom:0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:18px;
+    margin:.8em 0 0 0.5em; 
+    outline:0;
+    padding:0.4em 0 0.4em 0.6em; 
+    width: 220px;
+    border-radius: 5px 0 0 5px;
+}
+  
+#search-button {
+    background-color:#f1f1f1;
+    border-top:thin solid #e5e5e5;
+    box-shadow:1px 1px 1px 1px #e5e5e5;
+    cursor:pointer;
+    float:left;
+    height:28px;
+    margin:11px 0 0 0;
+    text-align:center;
+    width:50px;
+}
+  
+#search-button img{
+    margin:4px;
+    width:20px;
+} 
+
+#search {
+	display: inline-block;
+	float: right;
+	margin: 10px;
+	margin-right: 25px;
+}
+
+/***** OTHER STYLES *****/
+
+#user-menu {
+	display: inline-block;
+	float: right;
+	margin-top: 25px;
+}
+
+#bell-icon {
+	display: inline-block;
+	float: right;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+#bell-image {
+	width: 18px;
+}
+
+/***** MENU STYLES *****/
+
+#menu-items {
+	float: right;
+
+	margin-bottom: 20px;
+	margin-left: 100px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul > li a {
+	text-decoration: none;
+	color: #BBB;
+}
+
+a:hover {
+	color: #FFF;
+	cursor: pointer;
+}
+
+button {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+li {
+	margin-right: 25px;
+}
+
+option {
+	color: #BBB;
+}

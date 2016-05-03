@@ -1,0 +1,102 @@
+#wrapper {	
+	background-image: url("resources/formBackground.jpg");
+	width: 440px;
+	height: 720px;
+	font-family: Tahoma;	
+	position: absolute;
+	left: 400px;
+}
+
+form {
+	position: absolute;
+	width: 360px;
+	height: 720px;
+}
+
+#test {
+	display: block;
+}
+
+legend {
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 25px 25px 5px 25px;
+}
+
+input {
+	margin: 3px auto;
+	border-radius: 5px;
+	padding: 2px;
+	width: 200px;
+	height: 20px;
+	margin-left: 100px;
+}
+
+p {
+ 	margin: 2px 25px; 
+ 	padding-left: 10px;
+ 	background-color: rgba(255, 255, 255, 0.5);
+ 	border: 1px solid #FFFFFF;
+ 	border-radius: 5px;
+ 	width: 380px;
+}
+
+p.text-area {
+	padding-left: 10px;
+}
+
+.text-area-label {
+}
+
+textarea {
+	margin: 5px 102px; 
+ 	border: 1px solid #FFFFFF;
+ 	border-radius: 5px;
+}
+
+label {
+	position: absolute;
+	margin: 5px 0px;
+}
+
+img {
+	width: 20px;
+	height: 20px;
+}
+
+.card-types {
+	width: 380px;
+	height: 80px;
+}
+
+input[type=radio] {
+	display: inline;
+}
+
+.radio-input {
+	width: 0px;
+	height: 20px;
+	margin-left: 75px;
+}
+
+#test {
+	font-size: 14px;
+	position: absolute;
+	width: 380px;
+	height: 40px;
+	top: 480px;
+}
+
+button {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 150px;
+	height: 30px;
+	width: 100px;
+	border-radius: 20px;
+	background-color: #000000;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	font-size: 17px;
+}
