@@ -1,0 +1,146 @@
+﻿body {
+  background-image: url(../images/background-flowers.jpg);
+  background-repeat: repeat-x;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 14px; }
+  body #wrapper {
+    display: flex;
+    width: 72%;
+    height: 80%;
+    flex-flow: row wrap;
+    margin: 0 auto; }
+    body #wrapper header {
+      width: 100%;
+      background-color: rgba(255, 230, 240, 0.8);
+      border: 2px solid #000;
+      padding: 0 15px;
+      margin-bottom: 20px; }
+      body #wrapper header h1 a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1.5em; }
+        body #wrapper header h1 a:hover {
+          cursor: default; }
+        body #wrapper header h1 a img {
+          width: 20%; }
+        body #wrapper header h1 a span {
+          float: right;
+          clear: both; }
+      body #wrapper header nav ul {
+        width: 70%;
+        float: right; }
+        body #wrapper header nav ul li {
+          display: inline-block;
+          background-color: #eb2a7b;
+          border: 1px solid #000;
+          width: 18%;
+          text-align: center;
+          padding: 10px;
+          margin-right: 10px; }
+          body #wrapper header nav ul li:hover {
+            background-color: #33FF00;
+            cursor: pointer; }
+            body #wrapper header nav ul li:hover a {
+              color: red; }
+          body #wrapper header nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            color: #DDD; }
+    body #wrapper section {
+      order: 2;
+      width: 60%;
+      height: 100%;
+      background-color: rgba(255, 230, 240, 0.8);
+      border: 2px solid #000;
+      float: initial;
+      margin: 0 1.5%; }
+      body #wrapper section article header {
+        width: 80%;
+        border: none; }
+        body #wrapper section article header h1 {
+          font-size: 1.5em; }
+      body #wrapper section article div {
+        text-align: center; }
+        body #wrapper section article div img {
+          width: 23.5%; }
+    body #wrapper .left {
+      background-color: rgba(255, 230, 240, 0.8);
+      border: 2px solid #000;
+      order: 1;
+      width: 17.5%;
+      margin-bottom: 20px; }
+      body #wrapper .left ul {
+        padding: 10px 5px; }
+        body #wrapper .left ul li {
+          list-style: none; }
+          body #wrapper .left ul li a {
+            text-decoration: none;
+            color: #000; }
+    body #wrapper .right {
+      background-color: rgba(255, 230, 240, 0.8);
+      border: 2px solid #000;
+      order: 3;
+      width: 17.5%;
+      margin-bottom: 20px; }
+      body #wrapper .right ul {
+        padding: 10px 5px; }
+        body #wrapper .right ul li {
+          list-style: none; }
+    body #wrapper footer {
+      order: 4;
+      background-color: rgba(255, 230, 240, 0.8);
+      border: 2px solid #000;
+      width: 100%; }
+      body #wrapper footer h2 {
+        text-align: center; }
+
+@media screen and (max-width: 960px) {
+  body #wrapper {
+    width: 100%; } }
+
+@media screen and (max-width: 780px) {
+  body #wrapper header nav ul {
+    float: none;
+    padding-left: 0;
+    width: 100%; }
+    body #wrapper header nav ul li {
+      width: 18%; }
+  body #wrapper section {
+    order: 1;
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px; }
+    body #wrapper section article div img {
+      width: 32%; }
+  body #wrapper .left {
+    order: 2;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; }
+  body #wrapper .right {
+    order: 3;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; } }
+
+@media screen and (max-width: 640px) {
+  body #wrapper header h1 {
+    text-align: center; }
+    body #wrapper header h1 a img {
+      display: block;
+      margin: 0 auto;
+      width: 50%; }
+    body #wrapper header h1 a span {
+      float: none; }
+  body #wrapper header nav ul {
+    margin-top: 5px; }
+    body #wrapper header nav ul li {
+      display: block;
+      width: 93%;
+      padding-bottom: 5px; }
+  body #wrapper section article div img {
+    width: 49%; } }
+

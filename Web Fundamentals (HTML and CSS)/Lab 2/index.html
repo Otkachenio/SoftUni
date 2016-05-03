@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UEFA</title>
+	<meta name="author" content="Otkachenio" />
+	<link rel="stylesheet" href="resources/reset.css">
+	<link rel="stylesheet" href="resources/style.css" />
+</head>
+<body>
+	<div id="wrapper">
+		<header id="main-header">
+			<a href="http://www.uefa.com/" target="_blank">
+				<img id="uefa-image" src="resources/images/uefa-logo.png" />
+			</a>
+
+			<div id="main-menu">
+				<nav>
+					<ul>
+						<li>Home</li>
+						<li>UEFA Champions League</li>
+						<li>UEFA Europa Legue</li>
+						<li>Team of the year</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<div id="score-table">
+				<table>
+					<tr>
+						<td id="table-header" colspan="6">Group E</td>	
+					</tr>
+
+					<tr id="headers-row">
+						<td>№</td>
+						<td>Team</td>
+						<td>W</td>
+						<td>D</td>
+						<td>L</td>
+						<td>Points</td>
+					</tr>
+
+					<tr id="first-row">
+						<td>1</td>
+						<td class="teams">FC Barcelona</td>
+						<td>4</td>
+						<td>2</td>
+						<td>0</td>
+						<td>14</td>
+					</tr>
+
+					<tr id="second-row">
+						<td>2</td>
+						<td class="teams">AS Roma</td>
+						<td>1</td>
+						<td>3</td>
+						<td>2</td>
+						<td>6</td>
+					</tr>
+
+					<tr id="third-row">
+						<td>3</td>
+						<td class="teams">Bayer 04 Leverkusen</td>
+						<td>1</td>
+						<td>3</td>
+						<td>2</td>
+						<td>6</td>
+					</tr>
+
+					<tr id="fourth-row">
+						<td>4</td>
+						<td class="teams">FC BATE Borisov</td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>5</td>
+					</tr>
+				</table>
+
+				<div id="article">
+					<article>
+						<header>
+							<h3>1 New sponsors 9</h3>
+						</header>
+						
+						<div>
+							<img id="first-image" class="article-image" src="resources/images/titanic.png" />
+							<img id="second-image" class="article-image" src="resources/images/pumba.jpg" />
+							<img id="third-image" class="article-image" src="resources/images/nissan-logo.png" />
+						</div>
+
+						<p id="article-text">
+							&nbsp;&nbsp;&nbsp;&nbsp;The president of UEFA announced the newly signed sponsors of UEFA Champions League. The new sponsors will bring to the tournament 
+							<a href="#" id="article-link">Read more...</a>
+						</p>
+
+						<p id="author">Written by Unknown Author / 16.12.2015</p>
+					</article>
+				</div>
+			</div>
+
+			<div id="registraition-form">
+				<form action="index.html">
+					<fieldset id="registration">
+						<legend>Register new sponsor</legend>
+
+						<p class="field-name">
+							Company
+							<span class="red-color">*</span>
+						</p>
+						<input class="data-field" type="text" placeholder="Enter your company name" required="required" /> 
+						<br />
+
+						<p class="field-name">
+							Password
+							<span class="red-color">*</span>
+						</p>
+						<input class="data-field" type="password" placeholder="Enter your password" required="required" /> 
+						<br />
+							
+						<p class="field-name">
+							Confirm Password
+							<span class="red-color">*</span>
+						</p>
+						<input class="data-field" type="password" placeholder="Confirm your password" required="required" /> 
+						<br />
+
+						<div id="county-selector">
+							<p id="center">Country</p>
+							<select name="select-country" id="select-country">
+								<option value="quatar" selected="selected">Qatar</option>
+								<option value="bulgaria">Bulgaria</option>
+								<option value="usa">USA</option>
+								<option value="germany">Germany</option>
+							</select>
+						</div>
+
+						<div id="business-field">
+							<p class="center">Business field</p>
+							<div id="checkboxes">
+								<input type="checkbox" />Oil<br />
+								<input type="checkbox" />Airlines<br />
+								<input type="checkbox" />Gold
+							</div>	
+						</div>
+					</fieldset>
+
+					<fieldset id="offered-money">
+						<legend>What do you offer?</legend>
+						<input class="data-field" type="text" placeholder="Amount" />
+						<p id="offer-aside">* in million dollars</p>
+					</fieldset>
+					
+					<div id="buttons">
+						<button id="submit-button" type="submit" value="Submit">Submit</button>
+						<button id="reset-button" type="reset" value="Reset">Reset</button>
+					</div>			
+				</form>
+			</div>
+		</main>
+
+		<footer>
+			<div id="footer-menu">
+				<nav>
+					<ul style="list-style-type:none">
+						<li>Home</li>
+						<li>UEFA Champions Legue</li>
+						<li>UEFA Europa Legue</li>
+						<li>Team of the year</li>
+					</ul>
+				</nav>			
+			</div>	
+
+			<div id="footer-copyrights" class="center">
+				<p >© 1998-2015 UEFA. All rights reserved.</p>
+				<p>
+					The UEFA word, the UEFA logo and all marks related to UEFA competitions, are protected by trade marks and/or copyright of UEFA. No use for commercial purposes may be made of such trade marks. Use of UEFA.com signifies your agreement to the Terms and Conditions and Privacy Policy.
+				</p>
+			</div>
+
+			<div id="social-media-links">
+				<img id="facebook" src="resources/images/transperent.gif" />
+				<img id="google" src="resources/images/transperent.gif" />
+				<img id="twitter" src="resources/images/transperent.gif" />
+			</div>		
+		</footer>
+	</div>
+</body>
+</html>

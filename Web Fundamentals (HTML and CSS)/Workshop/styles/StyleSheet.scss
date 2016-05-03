@@ -1,0 +1,55 @@
+﻿body {
+    #wrapper {
+        width: 960px;
+        margin: 0 auto;
+        font: 18px Tahoma, Verdana, sans-serif;
+        margin-top: 15px;
+
+        @media screen and (max-width: 960px) {
+            width: 100%;
+        }
+
+        header {
+            img {
+                height: 50px;
+            }
+        }
+
+        main {
+            #carousel {
+                height: 300px;
+
+                img {
+                    height: 300px;
+                    margin: 0 auto;
+                }
+
+                .item {
+                    .carousel-caption {
+                        font-size: 1.2em;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            & > section {
+                margin-top: 15px;
+
+                #sandwich-menu {
+                    color: #fff000;
+                    cursor: pointer;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                & > aside {
+                    &.display-me {
+                        display: block !important;
+                    }
+                }
+            }
+        }
+    }
+}

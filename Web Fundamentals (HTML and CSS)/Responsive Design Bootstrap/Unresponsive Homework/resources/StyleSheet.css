@@ -1,0 +1,99 @@
+﻿body {
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+  background-color: #0099FF; }
+  body #wrapper {
+    width: 55%;
+    margin: 0 auto; }
+    body #wrapper header h1 a {
+      text-decoration: none;
+      color: #FFF; }
+      body #wrapper header h1 a img {
+        width: 25%; }
+      body #wrapper header h1 a span {
+        font-size: 1.2em; }
+    body #wrapper header nav ul {
+      width: 94.6%;
+      text-align: right; }
+      body #wrapper header nav ul li {
+        display: inline-block;
+        border: 1px solid #000;
+        padding: 5px 15px;
+        background-color: #FFF;
+        margin-left: 10px; }
+        body #wrapper header nav ul li a {
+          text-decoration: none;
+          color: #000;
+          font-size: 1.1em; }
+        body #wrapper header nav ul li:hover {
+          cursor: pointer;
+          background-color: #44FEEC; }
+    body #wrapper section {
+      margin-top: 10px;
+      display: inline-block;
+      width: 78%;
+      float: left;
+      clear: both; }
+      body #wrapper section article {
+        width: 95%;
+        border: 1px solid #000;
+        margin-bottom: 10px;
+        background-color: #EBF3F2;
+        padding: 5px 10px; }
+        body #wrapper section article header h1 {
+          font-size: 1.4em; }
+    body #wrapper .news {
+      display: inline-block;
+      float: left;
+      width: 22%; }
+      body #wrapper .news div ul {
+        padding-left: 0;
+        background-color: #EBF3F2;
+        border: 1px solid #000;
+        list-style: none;
+        margin-right: 0; }
+        body #wrapper .news div ul li {
+          margin: 5px;
+          margin-top: 10px; }
+          body #wrapper .news div ul li a {
+            text-decoration: none;
+            color: #000; }
+    body #wrapper footer {
+      clear: both;
+      width: 100%;
+      border: 1px solid #000;
+      background-color: #EBF3F2;
+      text-align: center;
+      clear: both; }
+      body #wrapper footer h2 {
+        font-size: 1.2em;
+        margin-bottom: 5px; }
+
+@media screen and (max-width: 960px) {
+  body #wrapper {
+    width: 100%; } }
+
+@media screen and (max-width: 780px) {
+  body #wrapper section {
+    width: 98%;
+    display: block;
+    float: none; }
+    body #wrapper section article {
+      width: 99%; }
+  body #wrapper .news {
+    width: 100%;
+    display: block;
+    float: none; } }
+
+@media screen and (max-width: 640px) {
+  body #wrapper header nav {
+    width: 80%;
+    margin-left: 10%; }
+    body #wrapper header nav ul {
+      text-align: center;
+      margin: 0 auto;
+      padding-left: 0;
+      margin-right: 20px; }
+      body #wrapper header nav ul li {
+        display: block; } }
+
