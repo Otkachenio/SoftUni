@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fakebook</title>
+	<meta name="author" content="Otkachenio" />
+	<link rel="stylesheet" href="resources/reset.css" />
+	<link rel="stylesheet" href="resources/style.css" />
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>fakebook<span id="reg"> &reg;</span></h1>
+			<h2>Registration</h2>
+			<h3>It is safe and it will always be!</h3>
+		</header>
+
+		<main>
+			<form action="index.html">
+				<fieldset id="non-important">
+					<legend>Non-Important Information</legend>
+					<p>
+						<input type="text" placeholder="First Name" />
+						<input type="text" placeholder="Last Name" />
+					</p>
+
+					<p>
+						<input type="text" placeholder="Your email" />
+						<input type="text" placeholder="Phone number" />
+					</p>					
+
+					<p>
+						<input type="password" placeholder="Your password" />
+						<input type="text" placeholder="Website" />
+					</p>
+
+					<p>
+						<label for="birthday">Birthday</label>
+					</p>
+
+					<p>
+						<input id="date-input" type="date" value="2000-01-01 00:00" />
+					</p>
+
+					<p>
+						<input class="radio-button" type="radio" name="gender" value="female" />Female
+						<input class="radio-button" type="radio" name="gender" value="male" />Male
+						<input class="radio-button" type="radio" name="gender" value="other" checked />Other
+					</p>
+				</fieldset>
+
+				<fieldset id="important">
+					<legend>Important Information *required</legend>
+					<p>
+						<select name="Country" id="select-country" required>
+							<option value="Select" selected="selected">Select</option>
+							<option value="Bulgaria">Bulgaria</option>
+							<option value="USA">USA</option>
+							<option value="England">England</option>
+							<option value="Russia">Russia</option>
+							<option value="Germany">Germany</option>
+							<option value="Italy">Italy</option>
+							<option value="Dubai">Dubai</option>
+							<option value="France">France</option>
+						</select>
+						<input type="text" placeholder="Village" required />
+						<input type="text" placeholder="District" required />
+					</p>
+
+					<p>
+						<input type="text" placeholder="Street" required />
+						<input type="text" class="small-field" placeholder="Nr" required />
+						<input type="text" class="small-field" placeholder="Floor" required />
+						<input type="text" class="small-field" placeholder="Ap Nr" required />
+					</p>
+
+					<p>
+						<label for="door-color">Door Color</label>
+					</p>
+
+					<p>						
+						<input type="color" id="door-color" name="door-color" value="#FF6699" required />
+						<input type="text" placeholder="Water Meter Nr" required />
+						<select name="aunt-panties-size" id="panties-size" required />
+							<option value="default" selected="selected" >Aunt Panties' Size</option>
+							<option value="S">S</option>
+							<option value="M">M</option>
+							<option value="L">L</option>
+							<option value="XL">XL</option>
+							<option value="XXL">XXL</option>	
+							<option value="XXL">XXXL</option>
+						</select>
+					</p>
+
+					<p>
+						<label for="more-info">More Personal Information</label>
+					</p>
+
+					<textarea name="more-info" id="more-info" cols="50" rows="2" placeholder="Give Us More Information!!!" required></textarea>
+				</fieldset>
+
+				<footer>
+					<input class="button" id="clear-button" type="reset" value="Clear Form" />
+					<input class="button" id="register-button" type="submit" value="Register" />
+				</footer>
+			</form>		
+		</main>
+	</div>
+</body>
+</html>

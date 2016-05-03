@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Enter the system</title>
+	<meta name="author" content="Otkachenio" />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Enter the system</h1>
+			<span id="necessary">It is necessary to login in Your account in order to sign for the course.</span>
+		</header>
+
+		<form action="index.html" id="register-form">
+			<h2>are you new? 
+				<span class="last-word">register</span>
+			</h2>
+
+			<p>
+				<input type="text" name="username" placeholder="User name" /><br />
+				<input type="text" name="email" placeholder="Email" /><br />
+				<input type="password" name="password" placeholder="Password" /><br />
+				<input type="password" name="confirm-password" placeholder="Confirm Password" /><br />
+			</p>
+
+			<p>
+				<button type=submit value="register" id="register-button">Register</button>
+			</p>
+		</form>
+		
+		<form action="index.html" id="login-form">
+			<h2 class="white-font">already a student? login</h2>
+
+			<p>
+				<input type="text" name="registered-username" placeholder="User name" /><br />
+				<input type="password" name"registered-password" placeholder="Password">
+			</p>
+
+			<p>
+				<button type="submit" value="login" id="login-button">Login</button>
+			</p>
+		</form>
+	</div>
+</body>
+</html>

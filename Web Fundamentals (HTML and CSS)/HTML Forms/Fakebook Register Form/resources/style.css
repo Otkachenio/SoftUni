@@ -1,0 +1,134 @@
+@font-face {
+	font-family: facebook;
+	src: url(resources/fonts/FACEBOOK.OTF);
+}
+
+/***** GENERAL STYLES *****/
+
+#wrapper {
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 18px;
+	background-color: #3b5998;
+	height: 800px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+/***** HEADER STYLES *****/
+
+header {
+	font-weight: bold;	
+	text-align: center;
+}
+
+h1 {
+	font-size: 9em;	
+	margin-bottom: 35px;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+/***** FORM STYLES *****/
+
+form {
+	margin-left: 100px;
+}
+
+fieldset {
+	border: 2px solid #FFF;
+	border-radius: 30px;
+	height: 300px;
+	display: inline-block;	
+	margin-top: 50px;	
+}
+
+input {
+	width: 175px;
+	height: 25px;
+	border-radius: 5px;
+}
+
+legend {
+	margin-left: 60px;
+	padding: 10px;
+}
+
+p {
+	margin-left: 15px;
+	margin-top: 10px;
+	font-size: 0.75em;
+}
+
+select {
+	width: 175px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+#non-important {
+	width: 400px;
+	margin-left: 20px;
+	
+}
+
+.radio-button {
+	margin-top: 10px;
+	width: 20px;
+	height: 10px;
+}
+
+#date-input {
+	width: 205px;
+}
+
+#important {
+	width: 600px;
+	margin-left: 40px;
+}
+
+.small-field {
+	width: 80px;
+}
+
+#door-color {
+	width: 180px;
+	height: 30px;
+}
+
+textarea {
+	width: 540px;
+	margin-left: 15px;
+	border-radius: 5px;
+}
+
+.button {
+	height: 60px;
+	color: #3b5998;
+	border-radius: 10px;
+	margin-top: 15px;	
+}
+
+#clear-button {
+	font-size: 1.3em;
+	width: 410px;
+	margin-left: 20px;
+}
+
+#register-button {
+	border-radius: 10px;
+	font-size: 1.75em;
+	width: 610px;
+	margin-left: 35px;
+}
+
+/***** OTHER STYLES *****/
+
+#reg {
+	font-size: 0.15em;
+}

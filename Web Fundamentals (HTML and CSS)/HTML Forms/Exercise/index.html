@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms Exercise</title>
+	<meta name="author" content="Otkachenio" />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<form action="index.html">
+			<p>
+				<p class="label">
+					<label for="username" class="required">Username</label>
+				</p>
+				<input type="text" name="username" placeholder="Enter your username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your username'" required="required">
+			</p>
+			
+			<p>
+				<p class="label">
+					<label for="first-name">First name</label>
+				</p>
+				<input type="text" name="first-name" placeholder="Enter your first name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your first name'">
+			</p>
+
+			<p>
+				<p class="label">
+					<label for="last-name" class="required">Last name</label>
+				</p>
+				<input type="text" name="last-name" placeholder="Enter your last name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your last name'" required="required">
+			</p>
+
+			<p>
+				<p class="label">
+					<label for="e-mail" class="required">E-mail</label>
+				</p>
+				<input type="text" name="e-mail" placeholder="Enter a valid E-mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter a valid E-mail'" required="required">
+			</p>
+
+			<p>
+				<p class="label">
+					<label for="birth-date">Birth date</label>
+				</p>
+				<input type="date" name="birth-date" placeholder="Enter your first name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your first name'">
+			</p>
+
+			<p class="label">
+				<span class="selected-labels">
+					<label for="gender">Gender</label>
+				</span>
+				<span class="selected-labels">
+					<label for="country">Country</label>
+				</span>
+			</p>
+
+			<p class="selected-options">
+				<select name="gender" id="select-gender">
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+					<option value="Other" selected="selected">Other</option>
+				</select>
+
+				<select name="country" id="select-country">
+					<optgroup label="Europe">
+						<option value="Bulgaria" selected="selected">Bulgaria</option>
+						<option value="England">England</option>
+						<option value="France">France</option>
+					</optgroup>
+					<optgroup label="Africa">
+						<option value="Benin">Benin</option>
+						<option value="Niger">Niger</option>
+					</optgroup>
+				</select>
+			</p>
+			<hr />
+
+			<p>
+				<span class="buttons">
+					<input class="buttons-style" type="checkbox" name="you-can" />You Can
+				</span>
+				<span class="buttons">
+					<input class="buttons-style" type="checkbox" name="choose" />Choose<br />
+				</span>
+				<span class="buttons">
+					<input class="buttons-style" type="checkbox" name="all" />All
+				</span>
+			</p>
+			<hr />
+
+			<p>
+
+				<span class="buttons">
+					<input class="buttons-style" type="radio" name="or-one" value="or">Or
+				</span>
+				<span class="buttons">
+					<input class="buttons-style" type="radio" name="or-one" value="just">Just
+				</span>
+				<span class="buttons">
+					<input class="buttons-style" type="radio" name="or-one" value="one">One
+				</span>
+			</p>
+			<hr />
+
+			<p>
+				<button type="submit" value="send">send</button>
+			</p>
+		</form>
+	</div>
+</body>
+</html>
