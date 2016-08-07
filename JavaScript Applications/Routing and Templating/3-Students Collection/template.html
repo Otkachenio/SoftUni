@@ -1,0 +1,21 @@
+﻿<table>
+    <thead>
+        <tr>
+            <th>Full name</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {{#students}}
+        <tr>
+            <td>{{fullName}}</td>
+            <td>{{gender}}</td>
+            <td>{{age}}</td>
+            <td>{{country}}</td>
+        </tr>
+        {{/students}}
+    </tbody>
+</table>
