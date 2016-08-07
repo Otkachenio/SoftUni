@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Quadratic equation</title>
+	<meta charset="utf-8" />
+    <meta name="author" content="Otkachenio" />
+</head>
+<body>
+    <div id="wrapper">
+        <form name="QEForm">
+            <table>
+                <thead>Quadratic equation: ax<sup>2</sup> + bx + c = 0</thead>
+                <tr>
+                    <td>
+                        a = <input type="text" name="a" value="" />
+                    </td>
+                    <td>
+                        b = <input type="text" name="b" value="" />
+                    </td>
+                    <td>
+                        c = <input type="text" name="c" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="button" value="Solve" onclick="QuadraticEquation(QEForm)" />
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="scripts/QuadraticEquation.js"></script>
+</body>
+</html>

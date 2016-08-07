@@ -1,0 +1,26 @@
+﻿body {
+}
+
+#expressionForm > input {
+    background-color: rgba(0, 255, 255, 0.7);
+    font-size: 1.25em;
+}
+
+#button {
+    color: #660099;
+    font-size: large;
+    margin: 10px 200px;
+}
+
+.label {
+    display: inline-block;
+    text-align: end;
+    width: 200px;
+}
+
+#result {
+    height: 20px;
+    background-color:#000;
+    color: #FFF;
+    font-size: 1.25em;
+}
