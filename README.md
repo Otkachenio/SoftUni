@@ -1,1 +1,1 @@
-# SoftUni
+Several projects from "SoftUni" that I completed
