@@ -1,8 +1,0 @@
-olimoly 
-row 6 
-lllllllll - 
-prefix 
-prefix! sssssss 
-t t t e e e s t 
-t e s t 
-T E S T 

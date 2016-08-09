@@ -1,9 +1,0 @@
-Compare text files
-2
-Diferent
-NothinInCommon
-4
-...
-same
-5ST
-4Dif
